@@ -7,8 +7,8 @@ from youtube_search import YoutubeSearch
 from tkinter import Tk, filedialog
 import os
 
-SPOTIPY_CLIENT_ID="752ac9c2479943e480a053168dc04dcfa"
-SPOTIPY_CLIENT_SECRET="8f0db783bda04f92bf58b60bd498be06a"
+SPOTIPY_CLIENT_ID="752ac9c2479943e480a053168dc04dcf"
+SPOTIPY_CLIENT_SECRET="8f0db783bda04f92bf58b60bd498be06"
 SPOTIPY_REDIRECT_URI="http://localhost:8080"
 SCOPE = "user-top-read"
 
