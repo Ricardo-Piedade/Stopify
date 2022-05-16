@@ -1,8 +1,8 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.oauth2 import SpotifyOAuth
-user = input("Insira Nome de Utilizador\n")
-playlistURL = input("Insira URL Spotify Playlist\n")
+user = input("Insert Spotify Username:\n")
+playlistURL = input("Insert URL Spotify Playlist\n")
 print("\n\nExtraindo 100 Musicas da Playlist\n\n")
 SPOTIPY_CLIENT_ID=config.SPOTIPY_CLIENT_ID
 SPOTIPY_CLIENT_SECRET=config.SPOTIPY_CLIENT_SECRET
