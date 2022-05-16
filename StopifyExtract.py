@@ -4,8 +4,8 @@ from spotipy.oauth2 import SpotifyOAuth
 user = input("Insira Nome de Utilizador\n")
 playlistURL = input("Insira URL Spotify Playlist\n")
 print("\n\nExtraindo 100 Musicas da Playlist\n\n")
-SPOTIPY_CLIENT_ID="752ac9c2479943e480a053168dc04dcf"
-SPOTIPY_CLIENT_SECRET="8f0db783bda04f92bf58b60bd498be06"
+SPOTIPY_CLIENT_ID="752ac9c2479943e480a053168dc04dcfa"
+SPOTIPY_CLIENT_SECRET="8f0db783bda04f92bf58b60bd498be06a"
 SPOTIPY_REDIRECT_URI="http://localhost:8080"
 SCOPE = "user-top-read"
 
